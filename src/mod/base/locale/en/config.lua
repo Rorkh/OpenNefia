@@ -14,7 +14,6 @@ return {
          },
          menu = "Menu",
          no_desc = "(No description available.)",
-         require_restart = "Items marked with * require restart to apply changes.",
          yes_no = {
             default = {
                no = "No",
@@ -159,7 +158,7 @@ return {
 
             music = {
                doc = "Enable or disable music.",
-               name = "Music*",
+               name = "Music",
                yes_no = "config.common.yes_no.on_off"
             },
 
@@ -179,7 +178,7 @@ return {
 
             sound = {
                doc = "Enable or disable sound.",
-               name = "Sound*",
+               name = "Sound",
                yes_no = "config.common.yes_no.on_off"
             },
 
@@ -190,7 +189,7 @@ return {
 
             screen_mode = {
                doc = "Fullscreen mode.\n'Full screen' will use a hardware fullscreen mode.\n'Desktop fullscr' will create a borderless window the same size as the screen.\n",
-               name = "Screen Mode*",
+               name = "Screen Mode",
                variants = {
                   desktop = "Desktop fullscr",
                   exclusive = "Full screen",
@@ -206,7 +205,7 @@ return {
 
             screen_resolution = {
                doc = "Screen resolution to use.\nThe available options may change depending on the graphics hardware you use.\n",
-               name = "Screen Resolution*"
+               name = "Screen Resolution"
             },
 
             high_quality_shadows = {
@@ -370,7 +369,7 @@ WARNING: This is an experimental feature which may lead to errors or lockups.
             --
 
             language = {
-               name = "Language*",
+               name = "Language",
             },
 
             --
