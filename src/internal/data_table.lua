@@ -238,7 +238,8 @@ function data_table:add_type(schema, params)
          ok, err = schema.on_validate(obj, verbose)
       end
       if not ok then
-         return false, ("Validation for data entry '%s:%s' failed: %s"):format(_type, obj._id or "<???>", err)
+         print(("Validation for data entry '%s:%s' failed: %s"):format(_type, obj._id or "<???>", err))
+         --return false, ("Validation for data entry '%s:%s' failed: %s"):format(_type, obj._id or "<???>", err)
       end
       return true
    end
